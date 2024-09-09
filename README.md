@@ -19,4 +19,4 @@ RUN This Commands in Terminal :
 1. pip3 install colorama 
 2. pip3 install pikepdf
 
-NOTE : This Commands Do "NOT" Run With Super_User(ROOT) !!!!!!
+NOTE : This Commands in "Linux" Do "NOT" Run With Super_User(ROOT) !!!!!!
