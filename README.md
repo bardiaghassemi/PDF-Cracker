@@ -23,3 +23,11 @@ RUN This Commands in Terminal :
 3. pip3 install pypdf
 
 NOTE : This Commands in "Linux" Do "NOT" Run With Super_User(ROOT) !!!!!!
+
+RUN
+
+WINDOWS
+CMD : python Cracker.py
+
+LINUX
+TERMINAL : python3 Cracker.py
