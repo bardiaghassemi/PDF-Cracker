@@ -35,3 +35,5 @@ LINUX
 1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
 2. cd PDF-Cracker
 3. python3 Cracker.py
+
+NOTE : Opps You Don't Have git?? get This Web Site https://git-scm.com/downloads And Install git
