@@ -1,6 +1,7 @@
 import pikepdf
 import os
 from colorama import Fore
+from pypdf import PdfReader, PdfWriter
 
 startagain = True
 def print_banner():
@@ -18,7 +19,7 @@ def print_banner():
     | $$      | $$    $$| $$             \$$    $$| $$  | $$| $$  | $$ \$$    $$| $$  \$$\| $$     \| $$  | $$
     \$$       \$$$$$$$  \$$               \$$$$$$  \$$   \$$ \$$   \$$  \$$$$$$  \$$   \$$ \$$$$$$$$ \$$   \$$
 
-                    v1.0               
+                    v1.3         
 
                 Developer : Bardia Ghassemi
                                                                                                                                                                                                                             
@@ -63,10 +64,10 @@ def main():
             print_banner()
 
             # start Cracking!!!
-            pdf_file = input('[?] Enter PDF_Name With Format or Drag and Drop: ')
-            passwordlist = input('[?] Enter PassFile or Drag and Drop: ')
+            pdf_file = input('[?] Enter PDF_Name With Format: ')
+            passwordlist = input('[?] Enter PassFile With Format: ')
 
-            if passwordlist == '' or passwordlist == None:
+            if passwordlist == '' or passwordlist == None or passwordlist == '\n':
                 passwordliste = False
             else:
                 passwordliste = True
@@ -78,6 +79,13 @@ def main():
                     if passwordlist == _ or passwordlist == __:
                         print(Fore.RED, '\b[!] What you entered is a default list password and will be tried during auto-crack. Please enter another name, or rename your PasswordList.', Fore.RESET)
                         continue
+                try:
+                    passwordlist = open(passwordlist)
+                except FileNotFoundError:
+                    print(Fore.RED + '[?!] Pass_File NOT Found.' + Fore.RESET)
+                    startagain = False
+                    continue
+            
             if pdf_file[-4:] != '.pdf':
                 print(Fore.RED + '[?!] Input PDF_File Not a PDF.' + Fore.RESET)
                 startagain = False
@@ -89,20 +97,37 @@ def main():
                 print(Fore.RED + '[?!] PDf_File NOT Found.' + Fore.RESET)
                 startagain = False
                 continue
-            
-            try:
-                passwordlist = open(passwordlist)
-            except FileNotFoundError:
-                print(Fore.RED + '[?!] Pass_File NOT Found.' + Fore.RESET)
-                startagain = False
-                continue
 
             hide_cursor()
 
-            print(Fore.YELLOW, '\b[!] Testing Your Password List.\n', Fore.RESET)
+            def check_pass_need():
+                try:
+                    pikepdf.open(pdf_file)
+                    print(Fore.RED, f"\b[!] The PDF File '{pdf_file}' has No Password.", Fore.RESET)
+                    show_cursor()
+                    exit(0)
+                except pikepdf._core.PasswordError:
+                    pass
+
+            check_pass_need()
+
+            def remove_password(password):
+                show_cursor()
+                reader = PdfReader(pdf_file)
+                reader.decrypt(password)
+
+                writer = PdfWriter()
+                writer.append_pages_from_reader(reader)
+                writer.encrypt("")
+
+                with open(pdf_file, "wb") as out_file:
+                    writer.write(out_file)
+                
+                print(Fore.GREEN, f"\bPassword of File '{pdf_file}' REMOVED Successfully.", Fore.RESET)
 
             passtry = 1
             if passwordliste:
+                print(Fore.YELLOW, '\b[!] Testing Your Password List.\n', Fore.RESET)
                 for password in passwordlist:
                     password = password.strip("\n")
                     if password == '' or password == '\n' or password == None:
@@ -111,6 +136,9 @@ def main():
                         pikepdf.open(pdf_file, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
                         show_cursor()
+                        ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
+                        if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
+                            remove_password(password)
                         exit(0)
                     except pikepdf._core.PasswordError:
                         passtry += 1
@@ -129,6 +157,9 @@ def main():
                     try:
                         pikepdf.open(pdf_file, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
+                        ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
+                        if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
+                            remove_password(password)
                         show_cursor()
                         exit(0)
                     except pikepdf._core.PasswordError:
