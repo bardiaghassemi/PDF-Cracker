@@ -27,7 +27,11 @@ NOTE : This Commands in "Linux" Do "NOT" Run With Super_User(ROOT) !!!!!!
 RUN
 
 WINDOWS
-CMD : python Cracker.py
+1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+2. cd PDF-Cracker
+3. python Cracker.py
 
 LINUX
-TERMINAL : python3 Cracker.py
+1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+2. cd PDF-Cracker
+3. python3 Cracker.py
