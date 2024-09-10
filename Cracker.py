@@ -4,6 +4,7 @@ from colorama import Fore
 from pypdf import PdfReader, PdfWriter
 
 startagain = True
+
 def print_banner():
     if startagain:
         os.system('cls')
@@ -57,6 +58,7 @@ def Faild():
     exit(0)
 
 def main():
+    global startagain
     global passtry
     while True:
         try:
