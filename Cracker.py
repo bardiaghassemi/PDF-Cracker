@@ -2,12 +2,18 @@ import pikepdf
 import os
 from colorama import Fore
 from pypdf import PdfReader, PdfWriter
+import platform
+
+name_system = platform.system()
 
 startagain = True
 
 def print_banner():
     if startagain:
-        os.system('cls')
+        if name_system == "Windows":
+            os.system('cls')
+        elif name_system == "Linux":
+            os.system("clear")
 
         banner = r'''
     _______   _______   ________         ______   _______    ______    ______   __    __  ________  _______  
@@ -81,12 +87,6 @@ def main():
                     if passwordlist == _ or passwordlist == __:
                         print(Fore.RED, '\b[!] What you entered is a default list password and will be tried during auto-crack. Please enter another name, or rename your PasswordList.', Fore.RESET)
                         continue
-                try:
-                    passwordlist = open(passwordlist)
-                except FileNotFoundError:
-                    print(Fore.RED + '[?!] Pass_File NOT Found.' + Fore.RESET)
-                    startagain = False
-                    continue
             
             if pdf_file[-4:] != '.pdf':
                 print(Fore.RED + '[?!] Input PDF_File Not a PDF.' + Fore.RESET)
@@ -97,6 +97,13 @@ def main():
                 open(pdf_file)
             except FileNotFoundError:
                 print(Fore.RED + '[?!] PDf_File NOT Found.' + Fore.RESET)
+                startagain = False
+                continue
+
+            try:
+                passwordlist = open(passwordlist)
+            except FileNotFoundError:
+                print(Fore.RED + '[?!] Pass_File NOT Found.' + Fore.RESET)
                 startagain = False
                 continue
 
