@@ -34,33 +34,10 @@ def print_banner():
 
         print(Fore.CYAN, banner, Fore.RESET, sep='')
 
-if os.name == 'nt':
-    import msvcrt
-    import ctypes
 
-    class _CursorInfo(ctypes.Structure):
-        _fields_ = [("size", ctypes.c_int),
-                    ("visible", ctypes.c_byte)]
-
-def hide_cursor():
-    if os.name == 'nt':
-        ci = _CursorInfo()
-        handle = ctypes.windll.kernel32.GetStdHandle(-11)
-        ctypes.windll.kernel32.GetConsoleCursorInfo(handle, ctypes.byref(ci))
-        ci.visible = False
-        ctypes.windll.kernel32.SetConsoleCursorInfo(handle, ctypes.byref(ci))
-
-def show_cursor():
-    if os.name == 'nt':
-        ci = _CursorInfo()
-        handle = ctypes.windll.kernel32.GetStdHandle(-11)
-        ctypes.windll.kernel32.GetConsoleCursorInfo(handle, ctypes.byref(ci))
-        ci.visible = True
-        ctypes.windll.kernel32.SetConsoleCursorInfo(handle, ctypes.byref(ci))
 
 def Faild():
     print(Fore.RED, f'\b[-] {passtry} Password Tesded, Password Not Found.\n', Fore.RESET)
-    show_cursor()
     exit(0)
 
 def main():
@@ -107,13 +84,11 @@ def main():
                 startagain = False
                 continue
 
-            hide_cursor()
 
             def check_pass_need():
                 try:
                     pikepdf.open(pdf_file)
                     print(Fore.RED, f"\b[!] The PDF File '{pdf_file}' has No Password.", Fore.RESET)
-                    show_cursor()
                     exit(0)
                 except pikepdf._core.PasswordError:
                     pass
@@ -121,7 +96,6 @@ def main():
             check_pass_need()
 
             def remove_password(password):
-                show_cursor()
                 reader = PdfReader(pdf_file)
                 reader.decrypt(password)
 
@@ -144,7 +118,6 @@ def main():
                     try:
                         pikepdf.open(pdf_file, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
-                        show_cursor()
                         ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
                         if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
                             remove_password(password)
@@ -169,7 +142,6 @@ def main():
                         ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
                         if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
                             remove_password(password)
-                        show_cursor()
                         exit(0)
                     except pikepdf._core.PasswordError:
                         passtry += 1
@@ -180,7 +152,6 @@ def main():
             Faild()
         except KeyboardInterrupt:
             print(Fore.RED, '\b\n[-] Quiting PDF Cracker.....', Fore.RESET)
-            show_cursor()
             exit(0)
 
 if __name__ == '__main__':
