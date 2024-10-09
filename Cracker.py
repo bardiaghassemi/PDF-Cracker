@@ -77,12 +77,13 @@ def main():
                 startagain = False
                 continue
 
-            try:
-                passwordlist = open(passwordlist)
-            except FileNotFoundError:
-                print(Fore.RED + '[?!] Pass_File NOT Found.' + Fore.RESET)
-                startagain = False
-                continue
+            if passwordliste:
+                try:
+                    passwordlist = open(passwordlist)
+                except FileNotFoundError:
+                    print(Fore.RED + '[?!] Pass_File NOT Found.' + Fore.RESET)
+                    startagain = False
+                    continue
 
 
             def check_pass_need():
