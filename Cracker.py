@@ -73,7 +73,7 @@ def main():
             try:
                 open(pdf_file)
             except FileNotFoundError:
-                print(Fore.RED + '[?!] PDf_File NOT Found.' + Fore.RESET)
+                print(Fore.RED + '[?!] PDF_File NOT Found.' + Fore.RESET)
                 startagain = False
                 continue
 
