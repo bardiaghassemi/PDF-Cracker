@@ -15,3 +15,5 @@ LINUX
 NOTE : Opps You Don't Have git?? get This Web Site https://git-scm.com/downloads And Install git
 
 NOTE : This Commands in "Linux" Do "NOT" Run With Super_User(ROOT) !!!!!!
+
+NOTE : If you enter your file when asked the password question, press enter if you did not have a file to input.
