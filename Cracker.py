@@ -152,7 +152,7 @@ def main():
 
             Faild()
         except KeyboardInterrupt:
-            print(Fore.RED, '\b\n[-] Quiting PDF Cracker.....', Fore.RESET)
+            print(Fore.RED, '\b\n[-] Quitting PDF Cracker.....', Fore.RESET)
             exit(0)
 
 if __name__ == '__main__':
