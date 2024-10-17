@@ -109,7 +109,7 @@ def main():
                 
                 print(Fore.GREEN, f"\bPassword of File '{pdf_file}' REMOVED Successfully.", Fore.RESET)
 
-            passtry = 1
+            passtry = 0
             if passwordliste:
                 print(Fore.YELLOW, '\b[!] Testing Your Password List.\n', Fore.RESET)
                 for password in passwordlist:
