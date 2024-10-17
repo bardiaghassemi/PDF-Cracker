@@ -137,6 +137,8 @@ def main():
 
                 for password in passlistall:
                     password = password.strip("\n")
+                    if password == '' or password == '\n' or password == None:
+                        continue
                     try:
                         pikepdf.open(pdf_file, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
