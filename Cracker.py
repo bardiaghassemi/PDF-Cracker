@@ -150,7 +150,7 @@ def main():
                         passtry += 1
                         print(Fore.RED, f"\b[*] {passtry:,} Password Tesded.", Fore.RESET, end='\r', sep='')
 
-                print(Fore.RED, f'\b\n[-] PassList{number_of_passlist} Faild.', Fore.RESET)
+                print(Fore.RED, f'\b\n[-] The Default PassList{number_of_passlist} Faild.', Fore.RESET)
 
             Faild()
         except KeyboardInterrupt:
