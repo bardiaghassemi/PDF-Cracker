@@ -16,8 +16,8 @@ LINUX
 3. pip3 install -r requirements.txt
 4. python3 Cracker.py
 
-NOTE : Opps You Don't Have git?? get This Web Site https://git-scm.com/downloads And Install git
+NOTE : Opps You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 
-NOTE : This Commands in "Linux" Do "NOT" Run With Super_User(ROOT) !!!!!!
+NOTE : This Commands In "Linux" Do "NOT" Run With Super_User(ROOT) !!!!!!
 
-NOTE : If you enter your file when asked the password question, press enter if you did not have a file to input.
+NOTE : If You Enter Your File When Asked The Password Question, Press Enter If You Did Not Have A File To Input.
