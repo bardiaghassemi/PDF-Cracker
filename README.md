@@ -16,7 +16,7 @@ LINUX
 3. pip3 install -r requirements.txt
 4. python3 Cracker.py
 
-If You Can't Download This, Use This Command :
+If You Can't Download This, Use This :
 
 ** NOTE : Opps You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 
