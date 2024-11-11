@@ -1,6 +1,6 @@
 What's This ??
 
-This is A Program Not A Software Developers Can Use This For Break the lock of PDF File or Find Password.
+This is A Program Not A Software Developers Can Use This For Break The Lock Of PDF File Or Find Password.
 
 HOW TO USE:
 
