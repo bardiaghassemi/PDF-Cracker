@@ -32,6 +32,7 @@ If You Encounter An Error In Linux, Use This Command :
 ** NOTE : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
 
 Hint :
+
 ** NOTE : If You Enter Your File When Asked The Password Question, Press Enter If You Did Not Have A File To Input.
 
 PERSIAN
@@ -68,5 +69,6 @@ PERSIAN
 ** توجه: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!!
 
 اشاره:
+
 ** توجه: اگر هنگام سؤال رمز عبور، فایل خود را وارد کنید، اگر فایلی برای وارد کردن نداشتید، Enter را فشار دهید.
 
