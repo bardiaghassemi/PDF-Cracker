@@ -23,7 +23,7 @@ LINUX
 3. pip3 install -r requirements.txt
 4. python3 Cracker.py
 
-If You Can't Download This, Use This :
+If You Can't Download This, Use This Solution:
 
 ** NOTE : You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 
@@ -60,7 +60,7 @@ Hint :
 3. pip3 install -r requires.txt
 4. python3 Cracker.py
 
-اگر نمی توانید این را دانلود کنید، از این استفاده کنید:
+اگر نمی توانید این را دانلود کنید، از این راه حل استفاده کنید:
 
 ** توجه: شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید
 
