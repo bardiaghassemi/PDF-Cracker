@@ -33,7 +33,7 @@ If You Encounter An Error In Linux, Use This Command :
 
 Hint :
 
-** NOTE : If You Enter Your File When Asked The Password Question, Press Enter If You Did Not Have A File To Input.
+** Note: When Entering Your Password, Import Your File, If You Don't Have A File To Import, Press "Enter".
 
 ## PERSIAN
 
@@ -70,5 +70,5 @@ Hint :
 
 اشاره:
 
-** توجه: اگر هنگام سؤال رمز عبور، فایل خود را وارد کنید، اگر فایلی برای وارد کردن نداشتید، Enter را فشار دهید.
+** توجه: هنگام وارد کردن رمز عبور، فایل خود را وارد کنید، اگر فایلی برای وارد کردن نداشتید، "Enter" را فشار دهید.
 
