@@ -25,7 +25,7 @@ LINUX
 
 If You Can't Download This, Use This :
 
-** NOTE : Opps You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
+** NOTE : You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 
 If You Encounter An Error In Linux, Use This Command : 
 
@@ -62,7 +62,7 @@ PERSIAN
 
 اگر نمی توانید این را دانلود کنید، از این استفاده کنید:
 
-** توجه: Opps شما Git ندارید؟ این وب سایت https://git-scm.com/downloads را دریافت کنید و Git را نصب کنید
+** توجه: شما Git ندارید؟ این وب سایت https://git-scm.com/downloads را دریافت کنید و Git را نصب کنید
 
 اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
 
