@@ -1,4 +1,4 @@
-ENGLISH 
+## ENGLISH 
 
 WHAT IS CRACKING ??
 
@@ -35,7 +35,7 @@ Hint :
 
 ** NOTE : If You Enter Your File When Asked The Password Question, Press Enter If You Did Not Have A File To Input.
 
-PERSIAN
+## PERSIAN
 
 کراکینگ چیست؟؟
 
