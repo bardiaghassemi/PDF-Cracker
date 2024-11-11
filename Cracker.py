@@ -3,6 +3,8 @@ import os
 from colorama import Fore
 from pypdf import PdfReader, PdfWriter
 import platform
+import argparse
+import random
 
 name_system = platform.system()
 
@@ -10,25 +12,39 @@ startagain = True
 
 def print_banner():
     if startagain:
-        if name_system == "Windows":
-            os.system('cls')
-        elif name_system == "Linux":
-            os.system("clear")
 
-        banner = r'''
+        banner1 = r'''
 
-██████╗ ██████╗ ███████╗     ██████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗ 
-██╔══██╗██╔══██╗██╔════╝    ██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
-██████╔╝██║  ██║█████╗      ██║     ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
-██╔═══╝ ██║  ██║██╔══╝      ██║     ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
-██║     ██████╔╝██║         ╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
-╚═╝     ╚═════╝ ╚═╝          ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
-                    v1.5       
+██████╗ ██╗   ██╗    ██████╗ ██████╗ ███████╗     ██████╗██████╗  █████╗  ██████╗██╗  ██╗███████╗██████╗ 
+██╔══██╗╚██╗ ██╔╝    ██╔══██╗██╔══██╗██╔════╝    ██╔════╝██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔══██╗
+██████╔╝ ╚████╔╝     ██████╔╝██║  ██║█████╗      ██║     ██████╔╝███████║██║     █████╔╝ █████╗  ██████╔╝
+██╔═══╝   ╚██╔╝      ██╔═══╝ ██║  ██║██╔══╝      ██║     ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██╔══██╗
+██║        ██║       ██║     ██████╔╝██║         ╚██████╗██║  ██║██║  ██║╚██████╗██║  ██╗███████╗██║  ██║
+╚═╝        ╚═╝       ╚═╝     ╚═════╝ ╚═╝          ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
+                    v1.8
 
                 Developer : Bardia Ghassemi
-                                                                                                                                                                                                                            
+                                                                                                                                                                                                                
         '''
 
+        banner2 = r'''
+ 
+ (        )   (    (      (             (                         )       (     
+ )\ )  ( /(   )\ ) )\ )   )\ )     (    )\ )    (        (     ( /(       )\ )  
+(()/(  )\()) (()/((()/(  (()/(     )\  (()/(    )\       )\    )\()) (   (()/(  
+ /(_))((_)\   /(_))/(_))  /(_))  (((_)  /(_))((((_)(   (((_) |((_)\  )\   /(_)) 
+(_)) __ ((_) (_)) (_))_  (_))_|  )\___ (_))   )\ _ )\  )\___ |_ ((_)((_) (_))   
+| _ \\ \ / / | _ \ |   \ | |_   ((/ __|| _ \  (_)_\(_)((/ __|| |/ / | __|| _ \  
+|  _/ \ V /  |  _/ | |) || __|   | (__ |   /   / _ \   | (__   ' <  | _| |   /  
+|_|    |_|   |_|   |___/ |_|      \___||_|_\  /_/ \_\   \___| _|\_\ |___||_|_\  
+
+                    v1.8
+
+                Developer : Bardia Ghassemi
+
+        '''
+        list_banners = [banner1, banner2]
+        banner = random.choice(list_banners)
         print(Fore.CYAN, banner, Fore.RESET, sep='')
 
 
@@ -37,19 +53,11 @@ def Faild():
     print(Fore.RED, f'\b[-] {passtry} Password Tesded, Password Not Found.\n', Fore.RESET)
     exit(0)
 
-def main():
+def main(PDF_File, Password_File):
     global startagain
     global passtry
     while True:
-        try:
-            # print Banner
-            print_banner()
-
-            # start Cracking!!!
-            pdf_file = input('[?] Enter PDF_Name With Format: ')
-            passwordlist = input('[?] Enter PassFile With Format: ')
-
-            if passwordlist == '' or passwordlist == None or passwordlist == '\n':
+            if not Password_File:
                 passwordliste = False
             else:
                 passwordliste = True
@@ -62,13 +70,13 @@ def main():
                         print(Fore.RED, '\b[!] What you entered is a default list password and will be tried during auto-crack. Please enter another name, or rename your PasswordList.', Fore.RESET)
                         continue
             
-            if pdf_file[-4:] != '.pdf':
+            if PDF_File[-4:] != '.pdf':
                 print(Fore.RED + '[?!] Input PDF_File Not a PDF.' + Fore.RESET)
                 startagain = False
                 continue
 
             try:
-                open(pdf_file)
+                open(PDF_File)
             except FileNotFoundError:
                 print(Fore.RED + '[?!] PDF_File NOT Found.' + Fore.RESET)
                 startagain = False
@@ -85,8 +93,8 @@ def main():
 
             def check_pass_need():
                 try:
-                    pikepdf.open(pdf_file)
-                    print(Fore.RED, f"\b[!] The PDF File '{pdf_file}' has No Password.", Fore.RESET)
+                    pikepdf.open(PDF_File)
+                    print(Fore.RED, f"\b[!] The PDF File '{PDF_File}' Has No Password.", Fore.RESET)
                     exit(0)
                 except pikepdf._core.PasswordError:
                     pass
@@ -94,17 +102,17 @@ def main():
             check_pass_need()
 
             def remove_password(password):
-                reader = PdfReader(pdf_file)
+                reader = PdfReader(PDF_File)
                 reader.decrypt(password)
 
                 writer = PdfWriter()
                 writer.append_pages_from_reader(reader)
                 writer.encrypt("")
 
-                with open(pdf_file, "wb") as out_file:
+                with open(PDF_File, "wb") as out_file:
                     writer.write(out_file)
                 
-                print(Fore.GREEN, f"\bPassword of File '{pdf_file}' REMOVED Successfully.", Fore.RESET)
+                print(Fore.GREEN, f"\b[+] Password of File '{PDF_File}' REMOVED Successfully.", Fore.RESET)
 
             passtry = 0
             if passwordliste:
@@ -114,7 +122,7 @@ def main():
                     if password == '' or password == '\n' or password == None:
                         continue
                     try:
-                        pikepdf.open(pdf_file, password=password)
+                        pikepdf.open(PDF_File, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
                         ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
                         if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
@@ -135,7 +143,7 @@ def main():
                 for password in passlistall:
                     password = password.strip("\n")
                     try:
-                        pikepdf.open(pdf_file, password=password)
+                        pikepdf.open(PDF_File, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
                         ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
                         if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
@@ -148,9 +156,25 @@ def main():
                 print(Fore.RED, f'\b\n[-] The Default PassList{number_of_passlist} Faild.', Fore.RESET)
 
             Faild()
-        except KeyboardInterrupt:
-            print(Fore.RED, '\b\n[-] Quitting PDF Cracker.....', Fore.RESET)
-            exit(0)
 
 if __name__ == '__main__':
-    main()
+    try:
+        # print Banner
+        print_banner()
+
+        p = argparse.ArgumentParser()
+        
+        p.description = "(.❛ ᴗ ❛.) PY-PDF-Cracker Is A Tool For Break The Lock Of PDF Files And Find Passwords (.❛ ᴗ ❛.)"
+
+        p.add_argument("-f", dest="PDF_File", help="PDF File For Start Cracking", required=True)
+        p.add_argument("-p", dest="PASSWORD_FILE", help="Password File For Use it in Cracking, If You Has No Password File Not Use This Option")
+        
+        args = p.parse_args()
+
+        file = args.PDF_File
+        passfile = args.PASSWORD_FILE
+
+        main(file, passfile)
+    except KeyboardInterrupt:
+        print(Fore.RED, '\b\n[-] Quitting PDF Cracker.....', Fore.RESET)
+        exit(0)
