@@ -1,4 +1,9 @@
-What's This ??
+WHAT'S CRACKING ??
+
+Cracking is a fast way to find passwords in services, which is also used in most of them. In this method, the power and speed of computers are used to find passwords and by trying millions of passwords on the target service. is done
+This tool is used to crack PDF files because these types of files are weak in terms of security and can be exploited.
+
+WHAT'S THIS ??
 
 This is A Program Not A Software Developers Can Use This For Break The Lock Of PDF File Or Find Password.
 
