@@ -2,7 +2,7 @@
 
 WHAT IS CRACKING ??
 
-Cracking is a fast way to find passwords in services, which is also used in most of them. In this method, the power and speed of computers are used to find passwords and by trying millions of passwords on the target service. is done
+Cracking is a fast way to find passwords in services, which is also used in most of them. In this method, the power and speed of computers are used to find passwords and by trying millions of passwords on the target service.
 This tool is used to crack PDF files because these types of files are weak in terms of security and can be exploited.
 
 WHAT IS THIS ??
@@ -35,7 +35,7 @@ If You Encounter An Error In Linux, Use This Command :
 
 کرک کردن یا کراکینگ چیست؟؟
 
-کرک کردن یک راه سریع برای یافتن رمزهای عبور در سرویس ها است که در اکثر آنها نیز استفاده می شود. در این روش از قدرت و سرعت کامپیوترها برای یافتن پسوردها و با آزمایش میلیون ها رمز روی سرویس مورد نظر استفاده می شود. انجام می شود
+کرک کردن یک راه سریع برای یافتن رمزهای عبور در سرویس ها است که در اکثر آنها نیز استفاده می شود. در این روش از قدرت و سرعت کامپیوترها برای یافتن پسوردها و با آزمایش میلیون ها رمز روی سرویس مورد نظر استفاده می شود.
 از این ابزار برای کرک فایل های پی دی اف استفاده می شود زیرا این نوع فایل ها از نظر امنیت ضعیف هستند و می توان از آنها سوء استفاده کرد.
 
 این چیه؟؟
