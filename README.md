@@ -25,15 +25,11 @@ LINUX
 
 If You Can't Download This, Use This Solution:
 
-** NOTE : You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
+** Solution : You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 
 If You Encounter An Error In Linux, Use This Command : 
 
-** NOTE : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
-
-Hint :
-
-** Note: When Entering Your Password, Import Your File, If You Don't Have A File To Import, Press "Enter".
+** Solution : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
 
 ## PERSIAN
 
@@ -62,13 +58,8 @@ Hint :
 
 اگر نمی توانید این را دانلود کنید، از این راه حل استفاده کنید:
 
-** توجه: شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید
+** راه حل: شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید
 
 اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
 
-** توجه: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!!
-
-اشاره:
-
-** توجه: هنگام وارد کردن رمز عبور، فایل خود را وارد کنید، اگر فایلی برای وارد کردن نداشتید، "Enter" را فشار دهید.
-
+** راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
