@@ -1,6 +1,4 @@
-<p align="center">
-  ![Password-remove-tool-pdf-700x424](https://github.com/user-attachments/assets/1790ef7e-45b7-4d43-bfd4-b7241a9e94fe)
-</p>
+![Password-remove-tool-pdf-700x424](https://github.com/user-attachments/assets/1790ef7e-45b7-4d43-bfd4-b7241a9e94fe)
 
 ## ENGLISH 
 
