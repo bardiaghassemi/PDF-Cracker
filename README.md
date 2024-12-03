@@ -66,16 +66,22 @@ If You Encounter An Error In Linux, Use This Command :
 ## نحوه استفاده:
 
 ## ویندوز
+
+```
 1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
 2. cd PDF-Cracker
 3. pip install -r requires.txt
 4. python Cracker.py -h
+```
 
 ## لینوکس
+
+```
 1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
 2. cd PDF-Cracker
 3. pip3 install -r requires.txt
 4. python3 Cracker.py -h
+```
 
 اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
