@@ -72,18 +72,16 @@ If You Encounter An Error In Linux, Use This Command :
 
 اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
-<li dir="rtl" lang="ir">
-  راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
+<li dir="rtl" lang="fa">
+راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
 </li>
 
-<li dir="rtl" lang="ir">
-اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
-</li>
+اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید.
 
-<li dir="rtl" lang="ir">
+<li dir="rtl" lang="fa">
 راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
 </li>
 
-<li dir="rtl" lang="ir">
+<li dir="rtl" lang="fa">
 نکته : دستور "python (In Windows) or python3 (In Linux) Cracker.py -h" برای این است که شما بتوانید سوییچ ها و گزینه ها را مشاهده و در صورت لزوم از آنها استفاده نمایید.
 </li>
