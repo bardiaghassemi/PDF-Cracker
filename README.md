@@ -25,7 +25,7 @@ LINUX
 
 If You Can't Download This, Use This Solution:
 
-** Solution : You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
+** Solution : If You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 
 If You Encounter An Error In Linux, Use This Command : 
 
@@ -58,7 +58,7 @@ If You Encounter An Error In Linux, Use This Command :
 
 اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
-** راه حل: شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید
+** راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید
 
 اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
 
