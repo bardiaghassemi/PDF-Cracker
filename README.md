@@ -73,13 +73,13 @@ If You Encounter An Error In Linux, Use This Command :
 اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
 <li dir="rtl" lang="fa">
-                                             راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
+راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
 </li>
 
 اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید.
 
 <li dir="rtl" lang="fa">
-                                                                                 راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
+راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
 </li>
 
 <li dir="rtl" lang="fa">
