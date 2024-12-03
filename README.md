@@ -91,6 +91,6 @@ python3 Cracker.py -h
 
 ####🧩 راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
 
-## Bye ![][https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/Smilies/Cat%20with%20Tears%20of%20Joy.png]
+## Bye ![](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/Smilies/Cat%20with%20Tears%20of%20Joy.png)
 
 ####💡 نکته : دستور "python (In Windows) or python3 (In Linux) Cracker.py -h" برای این است که شما بتوانید سوییچ ها و گزینه ها را مشاهده و در صورت لزوم از آنها استفاده نمایید.
