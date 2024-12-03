@@ -15,7 +15,7 @@ This tool is used to crack PDF files because these types of files are weak in te
 
 This is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
 
-## HOW TO USE 🔓🔐:
+## 🔓🔐 HOW TO USE :
 
 ### 📢 WINDOWS USERS
 
