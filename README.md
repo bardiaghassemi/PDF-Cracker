@@ -56,7 +56,7 @@ If You Encounter An Error In Linux, Use This Command :
 3. pip3 install -r requires.txt
 4. python3 Cracker.py -h
 
-اگر نمی توانید این را دانلود کنید، از این راه حل استفاده کنید:
+اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
 ** راه حل: شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید
 
