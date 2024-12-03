@@ -18,16 +18,22 @@ This is A Command Line Tool Not A Software, Developers Can Use This For Break Th
 ## HOW TO USE:
 
 ## WINDOWS
-1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
-2. cd PDF-Cracker
-3. pip install -r requirements.txt
-4. python Cracker.py -h
+
+```
+git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+cd PDF-Cracker
+pip install -r requirements.txt
+python Cracker.py -h
+```
 
 ## LINUX
-1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
-2. cd PDF-Cracker
-3. pip3 install -r requirements.txt
-4. python3 Cracker.py -h
+
+```
+git clone https://github.com/bardiaghassemi/PDF-Cracker.git
+cd PDF-Cracker
+pip3 install -r requirements.txt
+python3 Cracker.py -h
+```
 
 If You Can't Download This, Use This Solution:
 
