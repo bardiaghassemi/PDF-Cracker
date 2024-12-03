@@ -31,13 +31,19 @@ This is A Command Line Tool Not A Software, Developers Can Use This For Break Th
 
 If You Can't Download This, Use This Solution:
 
-** Solution : If You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
+<li>
+  Solution : If You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
+</li>
 
 If You Encounter An Error In Linux, Use This Command : 
 
-** Solution : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
+<li>
+  Solution : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
+</li>
 
-** Note: The Command "python (In Windows) or python3 (In Linux) Cracker.py -h" is For You To See The Switches And Options And Use Them If Necessary.
+<li>
+  Note: The Command "python (In Windows) or python3 (In Linux) Cracker.py -h" is For You To See The Switches And Options And Use Them If Necessary.
+</li>
 
 # PERSIAN
 
