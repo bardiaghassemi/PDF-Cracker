@@ -95,4 +95,4 @@ python3 Cracker.py -h
 
 # 🙃 Example
 
-![Bingo.mp4](https://github.com/user-attachments/assets/9639a98d-b31f-4ad3-afc0-db8f2c08c367)
+![Bingo](https://github.com/user-attachments/assets/f1eab1f8-18aa-4b2f-aed4-bcb59cc9dae9)
