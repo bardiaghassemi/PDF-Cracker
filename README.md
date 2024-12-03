@@ -4,20 +4,20 @@
 
 </p>
 
-#🎯 ENGLISH 
+# 🎯 ENGLISH 
 
-###📌 WHAT IS CRACKING ??
+### 📌 WHAT IS CRACKING ??
 
 Cracking is a fast way to find passwords in services, which is also used in most of them. In this method, the power and speed of computers are used to find passwords and by trying millions of passwords on the target service.
 This tool is used to crack PDF files because these types of files are weak in terms of security and can be exploited.
 
-###📌 WHAT IS THIS ??
+### 📌 WHAT IS THIS ??
 
 This is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
 
 ## HOW TO USE 🔓🔐:
 
-###📢 WINDOWS USERS
+### 📢 WINDOWS USERS
 
 ```
 git clone https://github.com/bardiaghassemi/PDF-Cracker.git
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python Cracker.py -h
 ```
 
-###📢 LINUX USERS
+### 📢 LINUX USERS
 
 ```
 git clone https://github.com/bardiaghassemi/PDF-Cracker.git
@@ -35,14 +35,14 @@ pip3 install -r requirements.txt
 python3 Cracker.py -h
 ```
 
-####⚙️ If You Can't Download This, Use This Solution:
+#### ⚙️ If You Can't Download This, Use This Solution:
 
 <li>
   🧩 Solution : If You Don't Have Git?? Get This Web Site "https://git-scm.com/downloads" And Install Git
 </li>
 
 
-####⚙️ If You Encounter An Error In Linux, Use This Command : 
+#### ⚙️ If You Encounter An Error In Linux, Use This Command : 
 
 <li>
   🧩 Solution : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
@@ -52,20 +52,20 @@ python3 Cracker.py -h
   💡 Note: The Command "python (In Windows) or python3 (In Linux) Cracker.py -h" is For You To See The Switches And Options And Use Them If Necessary.
 </li>
 
-#🎯 PERSIAN یا فارسی
+# 🎯 PERSIAN یا فارسی
 
-###📌 کرک کردن یا کراکینگ چیست؟؟
+### 📌 کرک کردن یا کراکینگ چیست؟؟
 
 کرک کردن یک راه سریع برای یافتن رمزهای عبور در سرویس ها است که در اکثر آنها نیز استفاده می شود. در این روش از قدرت و سرعت کامپیوترها برای یافتن پسوردها و با آزمایش میلیون ها رمز روی سرویس مورد نظر استفاده می شود.
 از این ابزار برای کرک فایل های پی دی اف استفاده می شود زیرا این نوع فایل ها از نظر امنیت ضعیف هستند و می توان از آنها سوء استفاده کرد.
 
-###📌 این چیه؟؟
+### 📌 این چیه؟؟
 
 این یک ابزار خط فرمان است نه یک نرم افزار, که توسعه دهندگان می توانند از آن برای شکستن قفل فایل PDF یا یافتن رمز عبور استفاده کنند.
 
-##🔓🔐 نحوه استفاده:
+## 🔓🔐 نحوه استفاده:
 
-###📢 کاربران ویندوز
+### 📢 کاربران ویندوز
 
 ```
 1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
@@ -74,7 +74,7 @@ python3 Cracker.py -h
 4. python Cracker.py -h
 ```
 
-###📢 کاربران لینوکس
+### 📢 کاربران لینوکس
 
 ```
 1. git clone https://github.com/bardiaghassemi/PDF-Cracker.git
@@ -83,13 +83,13 @@ python3 Cracker.py -h
 4. python3 Cracker.py -h
 ```
 
-####⚙️ اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
+#### ⚙️ اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
-####🧩 راه حل: اگر شما Git ندارید؟ از این وب سایت "Git "https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
+#### 🧩 راه حل: اگر شما Git ندارید؟ از این وب سایت "Git "https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
 
-####⚙️ اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
+#### ⚙️ اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
 
-####🧩 راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
+#### 🧩 راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
 
 ## Bye ![](https://raw.githubusercontent.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/master/Emojis/Smilies/Cat%20with%20Tears%20of%20Joy.png)
 
