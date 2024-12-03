@@ -35,6 +35,7 @@ If You Can't Download This, Use This Solution:
   Solution : If You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 </li>
 
+
 If You Encounter An Error In Linux, Use This Command : 
 
 <li>
