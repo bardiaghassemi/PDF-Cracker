@@ -72,15 +72,15 @@ If You Encounter An Error In Linux, Use This Command :
 
 اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
-<li>
+<li dir="rtl">
   راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
 </li>
 
-<li>
+<li dir="rtl">
 اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
 </li>
 
-<li>
+<li dir="rtl">
 راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
 </li>
 
