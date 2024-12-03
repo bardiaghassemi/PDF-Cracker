@@ -7,7 +7,7 @@ This tool is used to crack PDF files because these types of files are weak in te
 
 WHAT IS THIS ??
 
-This is A Program Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
+This is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
 
 HOW TO USE:
 
@@ -42,7 +42,7 @@ If You Encounter An Error In Linux, Use This Command :
 
 این چیه؟؟
 
-این یک برنامه است نه یک نرم افزار, که توسعه دهندگان می توانند از آن برای شکستن قفل فایل PDF یا یافتن رمز عبور استفاده کنند.
+این یک ابزار خط فرمان است نه یک نرم افزار, که توسعه دهندگان می توانند از آن برای شکستن قفل فایل PDF یا یافتن رمز عبور استفاده کنند.
 
 نحوه استفاده:
 
