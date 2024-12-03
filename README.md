@@ -35,14 +35,14 @@ pip3 install -r requirements.txt
 python3 Cracker.py -h
 ```
 
-### If You Can't Download This, Use This Solution:
+#### If You Can't Download This, Use This Solution:
 
 <li>
   Solution : If You Don't Have Git?? Get This Web Site https://git-scm.com/downloads And Install Git
 </li>
 
 
-### If You Encounter An Error In Linux, Use This Command : 
+#### If You Encounter An Error In Linux, Use This Command : 
 
 <li>
   Solution : This Commands In "Linux" Do "NOT" Run With Super_User (ROOT) !!!!!!
@@ -83,12 +83,12 @@ python3 Cracker.py -h
 4. python3 Cracker.py -h
 ```
 
-### اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
+#### اگر نمی توانید ابزار را دانلود کنید، از این راه حل استفاده کنید:
 
-### راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
+راه حل: اگر شما Git ندارید؟ از این وب سایت Git https://git-scm.com/downloads را دریافت کنید و آن را نصب کنید.
 
-### اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
+#### اگر در لینوکس با خطا مواجه شدید، از این دستور استفاده کنید:
 
-### راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
+#### راه حل: این دستورات در "لینوکس" با Super_User (ROOT) اجرا نشود!!!!!
 
-### نکته : دستور "python (In Windows) or python3 (In Linux) Cracker.py -h" برای این است که شما بتوانید سوییچ ها و گزینه ها را مشاهده و در صورت لزوم از آنها استفاده نمایید.
+#### نکته : دستور "python (In Windows) or python3 (In Linux) Cracker.py -h" برای این است که شما بتوانید سوییچ ها و گزینه ها را مشاهده و در صورت لزوم از آنها استفاده نمایید.
