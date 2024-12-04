@@ -164,7 +164,7 @@ if __name__ == '__main__':
 
         p = argparse.ArgumentParser()
         
-        p.description = "(.❛ ᴗ ❛.) PDF-Cracker Is A Tool For Break The Lock Of PDF Files And Find Passwords (.❛ ᴗ ❛.)"
+        p.description = "(.❛ ᴗ ❛.) PY-PDF-Cracker Is A Tool For Break The Lock Of PDF Files And Find Passwords (.❛ ᴗ ❛.)"
 
         p.add_argument("-f", dest="PDF_File", help="PDF File For Start Cracking", required=True)
         p.add_argument("-p", dest="PASSWORD_FILE", help="Password File For Use it in Cracking, If You Has No Password File Not Use This Option")
