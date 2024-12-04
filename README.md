@@ -13,7 +13,7 @@ This tool is used to crack PDF files because these types of files are weak in te
 
 ### 📌 WHAT IS THIS ??
 
-This is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
+PY-PDF-CRACKER is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
 
 ## 🔓🔐 HOW TO USE :
 
