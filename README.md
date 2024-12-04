@@ -13,7 +13,7 @@ This tool is used to crack PDF files because these types of files are weak in te
 
 ### 📌 WHAT IS THIS ??
 
-PY-PDF-CRACKER is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password.
+PY-PDF-CRACKER is A Command Line Tool Not A Software, Developers Can Use This For Break The Lock Of PDF File Or Find Password, This tool can also decrypt your PDF file in two ways: Method one: "BruteForce Attack" and Method two: "Dictionary Attack".
 
 ## 🔓🔐 HOW TO USE :
 
@@ -61,7 +61,7 @@ python3 Cracker.py -h
 
 ### 📌 این چیه؟؟
 
-این یک ابزار خط فرمان است نه یک نرم افزار, که توسعه دهندگان می توانند از آن برای شکستن قفل فایل PDF یا یافتن رمز عبور استفاده کنند.
+PY-PDF-CRACKER یک ابزار خط فرمان است نه یک نرم افزار, که توسعه دهندگان می توانند از آن برای شکستن قفل فایل PDF یا یافتن رمز عبور استفاده کنند و همچنین این ابزار می تواند به دو روش رمز فایل پی دی اف شما را تحویل دهد روش یک : BruteForce Attack و روش دوم : Dictionary Attack.
 
 ## 🔓🔐 نحوه استفاده:
 
