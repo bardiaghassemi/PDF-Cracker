@@ -176,5 +176,5 @@ if __name__ == '__main__':
 
         main(file, passfile)
     except KeyboardInterrupt:
-        print(Fore.RED, '\b\n[-] Quitting PDF Cracker.....', Fore.RESET)
+        print(Fore.RED, '\b\n[-] Quitting PY-PDF-CRACKER.....', Fore.RESET)
         exit(0)
