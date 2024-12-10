@@ -64,7 +64,7 @@ python3 Cracker.py -h
   💡 Note: The Command "python (In Windows) or python3 (In Linux) Cracker.py -h" is For You To See The Switches And Options And Use Them If Necessary.
 </li>
 
-# 🎯 PERSIAN یا فارسی
+# 🎯 PERSIAN فارسی
 
 ### 📌 کرک کردن یا کرکینگ چیست؟؟
 
