@@ -124,7 +124,7 @@ def main(PDF_File, Password_File):
                     try:
                         pikepdf.open(PDF_File, password=password)
                         print(Fore.GREEN, f"\b\n[+] Password : {password}", Fore.RESET)
-                        ASK = input("[?] Do You Want Remove PASSWORD (Y/n): ")
+                        ASK = input(Fore.LIGHTCYAN_EX + "[?] Do You Want Remove PASSWORD (Y/n): " + Fore.RESET)
                         if ASK == '' or ASK == '\n' or ASK == None or ASK.lower() == 'y':
                             remove_password(password)
                         exit(0)
